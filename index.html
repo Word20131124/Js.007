@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="h1">TODO LIST</h1>
+    <div class="div5">
+      <div class="div1">
+        <div class="div">
+          <input type="text" placeholder="Search note..." class="inp" />
+          <img src="./img/Vector (1).svg" alt="" class="img" />
+        </div>
+        <button class="but">Send</button>
+        <button class="but1" onclick="mat()" id="btn">
+          <img src="./img/Vector.svg" alt="" />
+        </button>
+        <button class="but2" onclick="mat1()" id="btn1">
+          <img src="./img/Vector (2).svg " alt="" />
+        </button>
+      </div>
+      <div class="todo-container">
+        <ul id="todo-list">
+          <li>
+            <input type="checkbox" id="task-1" />
+            <label for="task-1">NOTE #1</label>
+            <img src="./img/Frame 6.svg" alt="" class="img11" />
+            <img src="./img/trash-svgrepo-com 1.svg" alt="" />
+          </li>
+          <li>
+            <input type="checkbox" id="task-2" checked />
+            <label for="task-2" class="completed">NOTE #2</label>
+          </li>
+          <li>
+            <input type="checkbox" id="task-3" />
+            <label for="task-3">NOTE #3</label>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.Js"></script>
+  </body>
+</html>

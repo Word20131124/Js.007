@@ -1,0 +1,100 @@
+.h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+.div {
+  display: flex;
+  align-items: center;
+}
+.div1 {
+  display: flex;
+  gap: 16px;
+}
+.inp {
+  width: 545px;
+  height: 38px;
+  border-color: #6c63ff;
+  border-radius: 5px;
+}
+.img {
+  width: 21px;
+  height: 21px;
+  transform: translateX(-40px);
+}
+.but {
+  width: 64px;
+  height: 38px;
+  background: #6c63ff;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+}
+.but1 {
+  width: 38px;
+  height: 38px;
+  border-radius: 5px;
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+}
+.but2 {
+  width: 38px;
+  height: 38px;
+  border-radius: 5px;
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  display: none;
+}
+.todo-container {
+  margin-top: 30px;
+  margin-left: 115px;
+  width: 520px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+  padding: 10px 0;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+label {
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  transition: color 0.2s ease-in-out;
+}
+
+label.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: #aaa;
+}
+.div5 {
+  margin-left: 325px;
+}
+.img11 {
+  margin-left: 400px;
+}
